@@ -292,6 +292,15 @@
    margin-top: 30px;
  }
 
+ /* CALLTOACTION */
+ .calltoaction {
+   padding:4em 0;
+   text-align: center;
+ }
+ .testimonials h2 {
+   color:#3498DB;
+}
+
  /* FOOTER */
  footer {
    background-color: #34495E;
