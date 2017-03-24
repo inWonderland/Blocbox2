@@ -43,35 +43,6 @@
    margin:0 2% 20px;
  }
 
- @media (min-width: 768px) {
-   .container {
-     width: 750px;
-   }
- }
- @media (min-width: 992px) {
-   .container {
-     width: 970px;
-   }
-   .one-half {
-     width:46%;
-   }
-   .one-third {
-     width:29.33333%;
-   }
-   .one-fourth {
-     width:21%;
-   }
- }
- @media (min-width: 1200px) {
-   .container {
-     width: 1170px;
-   }
- }
- @media (min-width: 1824px) {
-   .container {width: 1724px;
-   }
- }
-
  /* HEADER */
  header {
    color:#FFFFFF;
@@ -292,6 +263,14 @@
    margin-top: 30px;
  }
 
+/*.marginblock {
+   margin-top:20px;
+}*/
+
+li:nth-child(2) {margin-top: 20px}
+
+li:last-child {margin-top: 20px}
+
  /* CALLTOACTION */
  .calltoaction {
    padding:4em 0;
@@ -335,7 +314,45 @@
    display: block;
  }
 
- @media (min-width: 992px){
+/* Media Query */
+ @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+ @media (min-width: 1400px) {
+   .container {width: 1350px;
+ }
+  header .hero h1 {
+   font-size:70px;
+   font-weight: normal;
+   margin:95px 0 0;
+ }
+}
+
+/*@media (min-width: 992px){
    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
@@ -352,4 +369,4 @@
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
- }
+ }*/
